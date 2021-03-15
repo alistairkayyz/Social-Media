@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+#update-header{
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  line-height: 50px;
+  color: white;
+  background: linear-gradient(to right, #ff3401, #ffba01);
+  position: relative;
+  margin: 20px;
+}
+.settings-container{
+    width: 100%;
+    background: white;    
+    border: 1px solid #ff3401;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px #ff3401;
+}
+.update-pro{
+    width: 100%;
+}
+#header{
+    position: relative;
+    margin: 20px;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ff3401;
+    box-shadow: 0px 0px 8px #ff3401;
+}
+
+input{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input:focus{
+    box-shadow: 0px 0px 8px black;
+}
+.reset-password{
+    color: #ff3401;
+}
+.my-form{
+    margin: 20px;
+}
+
+.form-btn{
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(to right, #ff3401, #ffba01);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.form-btn:hover{
+    box-shadow: 0px 0px 8px #ff3401;
+}
+.form-btn:focus{
+    box-shadow: 0px 0px 8px #ff3401;
+}
+.checkbox{
+    width: 20px;
+}
+.checkbox:focus{
+    border: none;
+    box-shadow: none;
+}
+#hint{
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+}
+#update select{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-container{
+  position: static;
+  width: 100%;
+  background: beige;
+  top: 0;
+  box-shadow: 0px 0px 8px #000;
+}
+.nav-wrap{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav{
+    width: 100%;
+    display: inline-flex;
+}
+
+.icon-logo{
+    width: 150px;
+    padding: 10px;
+}
+.icons{
+    overflow: hidden;
+    display: inline-flex;
+    margin: 10px;
+    float: right;
+}
+.icon-menu{
+    width: 30px;
+    padding: 2px 20px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    right: 0;
+    position: absolute;
+}
+ul li{
+    text-align: center;
+}
+ul li a:hover{
+  color: #ff3401;
+    border-bottom: 2px solid #ff3401;
+}
+ul li a:active{
+    border-bottom: 2px solid black;
+}

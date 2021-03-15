@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top-left{
+  width: 100%;
+  background: white;
+  height: 100%;
+  text-align: center;
+}
+.bottom-left{
+  width: 100%;
+  background: white;
+  height: 100%;
+  margin-top: 30px;
+}
+.top-right{
+  width: 100%;
+  background: white;
+  height: 100%;
+}
+.bottom-right{
+  width: 100%;
+  background: white;
+  height: 100%;
+  margin-top: 30px;
+  position: relative;
+}
+.heading-p{
+  background: linear-gradient(to right, #ff3401, #ffba01);
+  color: white;
+  line-height: 40px;
+  height: 80px;
+  position: relative;
+}
+.heading{
+  background: linear-gradient(to right, #ff3401, #ffba01);
+  color: white;
+  line-height: 40px;
+  border-bottom: 2px solid beige;
+  position: relative;
+  text-align: center;
+}
+#pp{
+  width: 80px;
+  top: -40px;
+  position: relative;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+#pp2{
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+}
+#s-icon{
+  width: 25px;
+  position: relative;
+}
+.profile-name{
+  font-weight: bold;
+  font-size: 16px;
+  top: -40px;
+  position: relative;
+}
+.profile-job{
+  font-size: 12px;
+  top: -40px;
+  font-weight: 300px;
+  position: relative;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.total-friends{
+  font-size: 16px;
+  font-weight: 300px;
+  top: -25px;
+  position: relative;
+  padding: 10px 0;
+  border-top: 2px solid beige;
+  border-bottom: 2px solid beige;
+}
+.profile-view{
+  font-size: 16px;
+  font-weight: 500px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+.profile-view:hover{
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: #ff3401;
+}
+.bottom-left a{
+  text-decoration: none;
+  color: black;
+}
+
+.notification-list{
+  border-bottom: 4px solid beige;
+  padding: 10px;
+}
+#notification-txt{
+  font-size: 14px;
+  font-weight: 500px;
+  background: white;
+}
+#notification-time{
+  color: gray;
+  font-size: 12px;
+  font-weight: 500px;
+}
+#notification-link{
+  color: #ff3401;
+  font-size: 16px;
+  font-weight: 500px;
+}
+#notification-link:hover{
+  color: black;
+}
+#settings-txt{
+  color: black;
+  font-size: 14px;
+  top: -10px;
+  position: relative;
+  margin-left: 10px;
+}
+#settings-txt:hover{
+  color: #ff3401;
+}
+
+.bottom-left #notification-txt:hover{
+  color: #ff3401;
+}
+
+.top-right #notification-txt:hover{
+  color: black;
+}

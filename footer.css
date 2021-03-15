@@ -1,0 +1,21 @@
+footer{
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 8px #000;
+    margin-top: 50px;
+}
+.wrap-footer{
+    background-color: beige;
+    width: 100%;
+    display: inline-flex;
+    height: 50px;
+
+}
+.info{
+    margin: auto;
+}
+.wrap-footer .info p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff4301;
+}

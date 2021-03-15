@@ -1,0 +1,2 @@
+import this into your phpMyAdmin
+and edit the connection privileges to be able to have access

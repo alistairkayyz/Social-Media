@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+.profile-container, .index-container{
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+.cover-container{
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to right, #ff3401, #ffba01);
+  position: relative;
+}
+#profile-cover input{
+  border: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#profile-cover input:focus{
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#profile-pic input[type="file"] {
+  position: absolute;
+  z-index: -999;
+  top: 6px;
+  left: 0px;
+  font-size: 15px;
+  color: #ff3401;
+}
+#dp{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.display-pic{
+  position: relative;
+  padding: 25px 25px;
+}
+#profile-pic{
+  top: -200px;
+  position: relative;
+}
+.profileimg{
+  position:  relative;
+  width: 90px;
+  padding: 2px;
+  top: 141px;
+  left: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+#profile-cover .profileimg{
+  left: 0;
+  background: none;
+}
+.btn-wrap input-pp:focus{
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-wrap input{
+  border: none;
+}
+.btn-wrap input-pp:focus{
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.input-pp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.input-pp:hover{
+  background: white;
+  cursor: pointer;
+  color: black;
+  transition: 0.5s;
+}
+#uploadpp{
+  color: transparent;
+}
+#uploadc{
+  color: transparent;
+}
+.profileimg button:hover{
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+.profileimg button{
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.user-info{
+  position: relative;
+  top: -180px;
+  left: 200px;
+  width: 380px;
+}
+#about-user{
+  color: white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.display-name{
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+#edit-profile{
+  position: relative;
+  top: -150px;
+  text-align: center;
+  float: right;
+}
+#edit-profile a{
+  color: white;
+  padding: 5px;
+}
+#edit-profile a:hover{
+  background: black;
+  transition: 0.5s;
+}
+
+#create-post{
+  position: relative;
+  top: -20px;
+  width: 100%;
+  background: linear-gradient(to right, #ff3401, #ffba01);
+}
+.index-container #create-post{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #ff3401, #ffba01);
+}
+
+.post-container{
+  width: 100%;
+  position: relative;
+}
+.post-section{
+  padding: 10px 0;
+  border-radius: 5px;
+}
+#status-pp{
+  position:  relative;
+  margin-left: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+#status-area textarea{
+  width: 85%;
+  position: relative;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#status-area textarea:focus, .custom-file-input:focus, #status-btn button:focus{
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.custom-file-input{
+  border: 2px solid white;
+  background: white;
+  border-radius: 5px;
+  margin-left: 62px;
+  padding: 4px;
+  width: 60%;
+  cursor: pointer;
+  position: relative;
+}
+#status-btn{
+  background: green;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+#status-btn button{
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 9px ;
+  width: 70px;
+  border-radius: 5px;
+  outline: none;
+  border: white;
+  cursor: pointer;
+}
+.feed-post{
+  width: 100%;
+  top: -10px;
+  position: relative;
+  background: white;
+}
+#delete-option{
+  float: right;
+  position: relative;
+}
+#delete-post{
+  width: 20px;
+  margin-top: 10px;
+  border: 2px solid white;
+  padding: 5px;
+}
+#delete-post:hover{
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#poster-name{
+  font-size: 16px;
+  font-weight: bold;
+}
+#time-posted{
+  color: gray;
+  font-size: 12px;
+}
+#icon-time{
+  width: 10px;
+}
+#poster-info{
+  width: 100%;
+  margin-top: 10px;
+  left: 10px;
+  position:  relative;
+  display: inline-block;
+}
+.my-post{
+  width: 100%;
+  position: relative;
+}
+.posted-feed{
+  width: 100%;
+  display: inline-flex;
+}
+#feed-pic{
+  width: 100%;
+}
+#posted-pic{
+  width: 60%;
+}
+#feed-posted{
+  padding: 8px;
+  display: list-item;
+  list-style: none;
+}
+#feed-text{
+  font-size: 14px;
+}
+#num-likes-comments{
+  position: relative;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+#num-likes{
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  padding-right: 15px;
+}
+#num-comments{
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  border-left: 1px solid gray;
+  padding-left: 15px;
+}
+#friends-liked{
+  padding: 5px 0;
+  font-size: 12px;
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+#comment-area{
+  width: 100%;
+  padding: 5px 0;
+  background: beige;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#comment-area textarea{
+  width: 90%;
+  padding: 5px;
+  margin: 0 15px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+#comment-area textarea:focus{
+  border: 2px solid black;
+}
+#btn-comment{
+  padding: 5px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff3401, #ffba01);
+}
+#btn-comment:hover{
+  color: black;
+  border: 2px solid black;
+  transition: .5s;
+}
+#comment-section{
+  width: 100%;
+  padding: 5px 0;
+  background: beige;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#friends-comments{
+  margin: 0 15px;
+}
+#commenter-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+.comment{
+  font-size: 14px;
+  margin: 5px 0;
+  border-top: 1px solid gray;
+}
+#time-commented{
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+#comment-section #icon-time{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.frm-feed{
+  border-bottom: 10px solid beige;
+}
+#like-post{
+  width: 15px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+}
+#like-post:hover{
+  border: 2px solid red;
+  background: red;
+}
